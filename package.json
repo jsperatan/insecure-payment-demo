@@ -1,0 +1,25 @@
+{
+  "name": "insecure-payment-demo",
+  "version": "1.0.0",
+  "description": "INTENTIONALLY VULNERABLE payment app for testing SAST/SCA tools. DO NOT DEPLOY.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "axios": "0.18.0",
+    "better-sqlite3": "^11.5.0",
+    "body-parser": "1.18.2",
+    "cookie-parser": "1.4.3",
+    "express": "4.16.0",
+    "handlebars": "4.0.11",
+    "jsonwebtoken": "8.3.0",
+    "lodash": "4.17.11",
+    "marked": "0.3.5",
+    "minimist": "1.2.0",
+    "moment": "2.19.3",
+    "node-serialize": "0.0.4"
+  }
+}
